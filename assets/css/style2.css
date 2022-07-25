@@ -1,0 +1,112 @@
+body {
+    font-family: "Open sans", sans-serif;
+    color: #6D0017;
+    padding-top: 50px;
+
+
+/* footer ================================= */
+.footer-top {
+    background: gray;
+    height: 20px;
+}
+
+.main-footer {
+    background: #6D0017;
+    color: #fff;
+}
+.main-footer .footer-main {
+    padding: 30px 0;
+}
+.main-footer .footer-title {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.main-footer .footer-title .title-under {
+    background: #fff;
+    margin: 15px 0;
+    text-align: left;
+}
+.main-footer .footer-title .title-under:after {
+    margin: 0;
+    background: #fff;
+}
+.main-footer .footer-content {
+    text-align: justify;
+    font-size: 13px;
+}
+.main-footer .tweet {
+    font-size: 13px;
+}
+.main-footer .tweet:after {
+    content: "";
+    height: 1px;
+    display: block;
+    background: #6D0017;
+    width: 150px;
+    margin: 15px auto;
+}
+.main-footer .tweet:last-child:after {
+    display: none;
+}
+
+.footer-bottom {
+    background: #6D0017;
+    padding: 3px;
+}
+
+.footer-form .form-group {
+    margin-bottom: 5px;
+}
+.footer-form .form-control {
+    background: #6D0017;
+    color: #fff;
+    border-radius: 0;
+    margin-bottom: 5px;
+    border: 1px solid #fff;
+    resize: none;
+}
+.footer-form .btn-submit {
+    border-radius: 0;
+    background: #6D0017;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    -moz-transition: all, 0.5s;
+    -o-transition: all, 0.5s;
+    -webkit-transition: all, 0.5s;
+    transition: all, 0.5s;
+}
+.footer-form .btn-submit:hover {
+    background: #6D0017;
+}
+.footer-form input:-moz-placeholder,
+.footer-form textarea:-moz-placeholder {
+    color: #6D0017;
+}
+.footer-form input::-moz-placeholder,
+.footer-form textarea::-moz-placeholder {
+    color: #6D0017;
+}
+.footer-form input:-ms-input-placeholder,
+.footer-form textarea:-ms-input-placeholder {
+    color: #6D0017;
+}
+.footer-form input::-webkit-input-placeholder,
+.footer-form textarea::-webkit-input-placeholder {
+    color: #6D0017;
+}
+
+.contact-items .contact-icon {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: #6D0017;
+    vertical-align: middle;
+    margin-right: 5px;
+    color: #fff;
+    text-align: center;
+}
+.contact-items .contact-icon .fa {
+    vertical-align: sub;
+    font-size: 20px;
+    margin-top: 7px;
+}
